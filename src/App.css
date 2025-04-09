@@ -1,38 +1,84 @@
-.App {
+body {
+  background-image: url("./flowers.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Wedding {
+  background-color: rgb(234, 226, 212, 0.8);
+  min-height: 80vh;
+  width: 400px;
+  margin: 5px auto;
+  padding: 40px;
+  border-radius: 5%;
+}
+h1 {
+  font-family: "Lovers Quarrel", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 80px;
+  color: rgb(76, 67, 61);
+  margin-top: 0;
   text-align: center;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 2px;
 }
 
-.App-link {
-  color: #61dafb;
+.container2 {
+  flex: 2;
+  padding: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.crossed {
+  text-decoration: line-through 2px rgb(247, 217, 142);
+}
+
+ul,
+li {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 150;
+  font-style: italic;
+  padding: 10px;
+  margin: 0;
+  list-style: none;
+}
+
+.delete {
+  background-color: rgba(147, 143, 120, 1);
+  color: rgb(234, 226, 212);
+  margin-bottom: 5px;
+}
+
+.add {
+  background-color: rgb(108, 93, 82);
+  color: rgb(234, 226, 212);
+  padding: 5px;
+}
+
+.btn {
+  padding: 10px;
+  border: none;
+  width: 100%;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font: weight 150px;
+  font-style: italic;
+  border-radius: 5px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: italic;
+  border-style: none;
+  border-radius: 5px;
 }
