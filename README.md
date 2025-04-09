@@ -13,7 +13,7 @@
   <p>
 <a href="https://wedding-planning-checklist.netlify.app/">view my project</a>
 </p>
-<p>My project is called "Wedding-planning-checklist". In it, you can write down the titles of books that you are going to read. After reading a book, you can cross it out in the list and then, if you wish, remove it from the list.</p>
+<p>My project is called "Wedding-planning-checklist". In this project, you can enter a list of things that need to be done before such an important event as a wedding. You can cross out things that have already been done and completely update the list of things to do.</p>
 <h2>Built with:</h2>
 <h3><img src="https://shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
 <img src="https://shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
